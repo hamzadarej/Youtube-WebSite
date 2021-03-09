@@ -1,4 +1,7 @@
-
+body {
+    background-color: black;
+    
+}
 nav {
     display: flex;
     justify-content: space-evenly;
@@ -8,12 +11,18 @@ nav {
     
     flex-wrap: wrap;
     height: 70px;
-    background-color: black;
+    background-color: rgb(39, 35, 35);
     width: 100%;
   font-size: large;
   font-family: "Times New Roman", Times, serif;
-  color:gray;
+  color:white;
   
+}
+.logo {
+    width: 50%;
+    display: flex;
+    border: white 1px solid;
+    justify-content: right;
 }
 
 nav i {
@@ -21,9 +30,12 @@ nav i {
     height: 15px;
     width: 50px;
 }
+#youtube {
+    color: red;
+}
 .left-nav {
     display: flex;
-    background-color: black;
+    background-color: rgb(39, 35, 35);
     height: 100%;
     width: 18rem;
     flex-wrap: wrap;
@@ -34,12 +46,16 @@ nav i {
     flex-direction: column;
     height: max-content;
     width: 18rem;
-    border: 1px solid gray;
+    
+}
+.second {
+    border-top: gray 1px solid;
+    
 }
 .left-nav div a {
     
     padding:  25px ;
-    border: black 1px solid;
+    
     color: gray;
     font-size: large;
     font-weight: bold;
@@ -47,7 +63,7 @@ nav i {
 }
 .left-nav div a i {
     
-    width: 30px;
+    width: 40px;
 }
 
 
