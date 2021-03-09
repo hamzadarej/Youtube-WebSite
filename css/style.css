@@ -51,8 +51,20 @@ nav div i {
 
   border: gray 1px solid;
 }
+.rightNav {
+  display: flex;
+  align-items: center;
+}
+.user-pic {
+  width: 35px;
+  height: 35px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  background-image: url(../img/d.jpg);
+}
 /*finish nav */
-
+/*start left-side */
 .left-side {
   display: flex;
   background-color: rgb(39, 35, 35);
@@ -80,3 +92,4 @@ nav div i {
 .left-side div a i {
   width: 50px;
 }
+/*finish left-side */
