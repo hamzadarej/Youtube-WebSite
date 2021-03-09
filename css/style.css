@@ -1,7 +1,7 @@
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     border: 1px solid black;
     flex-direction: row;
@@ -12,13 +12,42 @@ nav {
     width: 100%;
   font-size: large;
   font-family: "Times New Roman", Times, serif;
-  color: white;
+  color:gray;
   
 }
 
 nav i {
+    
     height: 15px;
-    width: 40px;
+    width: 50px;
+}
+.left-nav {
+    display: flex;
+    background-color: black;
+    height: 100%;
+    width: 18rem;
+    flex-wrap: wrap;
+
+}
+.left-nav div {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    width: 18rem;
+    border: 1px solid gray;
+}
+.left-nav div a {
+    
+    padding:  25px ;
+    border: black 1px solid;
+    color: gray;
+    font-size: large;
+    font-weight: bold;
+    
+}
+.left-nav div a i {
+    
+    width: 30px;
 }
 
 
