@@ -1,0 +1,26 @@
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    flex-direction: row;
+    
+    flex-wrap: wrap;
+    height: 70px;
+    background-color: black;
+    width: 100%;
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  
+}
+
+nav i {
+    height: 15px;
+    width: 40px;
+}
+
+
+
+
