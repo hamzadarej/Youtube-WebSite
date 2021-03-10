@@ -38,6 +38,7 @@ nav div i {
   font-size: larger;
   text-decoration: none;
 }
+
 .logo a i {
   color: red;
   width: auto;
@@ -80,7 +81,7 @@ nav div i {
   display: flex;
   flex-direction: column;
   height: max-content;
-  width: 18rem;
+  width: 16vw;
 }
 .second {
   border-top: gray 1px solid;
@@ -130,12 +131,10 @@ nav div i {
   padding: 25px;
 }
 .background-box i {
-  background-color: transparent;
   background-size: contain;
   height: 3.5vh;
   width: 1.7vw;
   text-align: center;
-  
 }
 #facebook {
   color: blue;
