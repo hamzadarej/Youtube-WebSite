@@ -142,7 +142,7 @@ nav div i {
 #twitter {
   color: rgb(29, 161, 242);
 }
-#instgram {
+#instagram {
   color: white;
   background: #f09433;
   background: -moz-linear-gradient(
@@ -253,13 +253,38 @@ nav div i {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 .Videos ul {
   width: 12vw;
   height: 16vh;
   background-color: gray;
   border: 1px black solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: ease-in 3s;
 }
+.Videos ul:hover {
+  border: 1px solid white;
+  width: 30vw;
+  height:40vh ;
+  transition: ease-in-out 2s;
+  cursor: zoom-in;
+  border-radius:10px ;
+  color: transparent;
+}
+.Videos ul:active {
+  width: 6vw;
+  height: 8vh;
+  color: white;
+  cursor: zoom-out;
+}
+.Videos ul:target {
+  color: #bc1888;
+
+}
+
 h3 {
   color: gray;
 
@@ -271,44 +296,51 @@ h3 {
 .img1 {
   background-image: url(../img/1.jpg);
   background-size: 100%;
+  background-repeat: no-repeat;
+  
 }
 .img2 {
   background-image: url(../img/2.jpg);
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .img3 {
   background-image: url(../img/3.jpg);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .img4 {
   background-image: url(../img/4.jpg);
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 .img5 {
   background-image: url(../img/5.webp);
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 .img6 {
   background-image: url(../img/4.webp);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .img7 {
   background-image: url(../img/6.jpg);
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .img8 {
   background-image: url(../img/7.jpg);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .img9 {
   background-image: url(../img/8.jpg);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .img10 {
   background-image: url(../img/Eminem_15.jpg);
   background-size: 100%;
+  background-repeat: no-repeat;
 }
