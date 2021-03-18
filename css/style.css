@@ -17,11 +17,11 @@ body {
   width: 97vw;
   height: 7vh;
   background-color: rgb(39, 35, 35);
-  
+
   font-size: large;
-  
+
   color: white;
- padding: 0px 30px;
+  padding: 0px 30px;
 }
 #searchbottom {
   width: 35vw;
@@ -43,11 +43,30 @@ nav div i {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  width: 8vw;
 }
 
 .logo a i {
   color: red;
   width: auto;
+}
+.home {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  width: 1.8rem;
+  height: 1.5rem;
+  border: 1px solid white;
+  background-color: black;
+  border-radius: 8px;
+}
+.home .kid {
+  background-color: white;
+  width: 1.2rem;
+  height: 0.1rem;
 }
 .midelNav {
   display: flex;
@@ -228,8 +247,6 @@ nav div i {
   flex-direction: row;
   align-items: center;
   height: 5vh;
-  
-  
 }
 
 .navbar ul {
@@ -262,7 +279,6 @@ nav div i {
   align-items: center;
 }
 .Videos {
-  
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -356,13 +372,10 @@ h3 {
   background-size: 100%;
   background-repeat: no-repeat;
 }
-#home {
-  cursor: pointer;
-}
+
 @media only screen and (max-width: 800px) {
   body {
     width: 100vw;
-    border: 1px white solid;
   }
   .left-side {
     display: none;
@@ -375,11 +388,10 @@ h3 {
   }
   .topnav {
     display: grid;
-    grid-template-columns: 10% 10%  50%;
-    grid-template-rows:100% ;
-    border: 1px wheat solid;
-    width: 90vw;
+    grid-template-columns: 10% 10% 50%;
+    grid-template-rows: 100%;
 
+    width: 90vw;
   }
   .background-pic {
     width: 100vw;
@@ -388,18 +400,21 @@ h3 {
   }
   .background-box {
     display: grid;
-    
+
     grid-template-columns: 30% 30% 30%;
     grid-template-rows: 150%;
     width: 20vw;
-    
   }
-  
+
   #searchbottom {
+    display: none;
+  }
+  .logo {
     
-   display: none;
-    
-   
+    width: 15vw;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
   }
 
   .logo span {
@@ -411,6 +426,4 @@ h3 {
   .Videos ul {
     width: 150px;
   }
- 
- 
 }

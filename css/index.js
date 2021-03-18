@@ -1,5 +1,5 @@
 let clicked = false;
-document.querySelector("#home").addEventListener("click", () => {
+document.querySelector(".home").addEventListener("click", () => {
   clicked = !clicked;
   console.log(clicked);
   if (clicked) {
