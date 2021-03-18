@@ -4,38 +4,35 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
   font-family: "Times New Roman", Times, serif;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
   width: 100vw;
 }
 /*start nav */
 .topnav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   border: 1px solid black;
-  flex-direction: row;
-  width: 96vw;
+  text-align: center;
+  align-items: center;
+
+  width: 100vw;
   height: 7vh;
   background-color: rgb(39, 35, 35);
-  
+
   font-size: large;
 
   color: white;
-  padding: 0px 30px;
 }
 .searchNav {
-  
-  
   background-color: black;
   font-size: larger;
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
   height: 3vh;
   border: gray 1px solid;
-  
-
 }
 #searchbottom {
   background-color: black;
@@ -57,9 +54,9 @@ nav div i {
 .logo {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 
-  width: 8vw;
+  width: 10vw;
 }
 
 .logo a i {
@@ -320,7 +317,6 @@ nav div i {
   color: white;
   cursor: zoom-in;
   transition: 4s;
- 
 }
 .Videos ul:target {
   color: #bc1888;
@@ -385,8 +381,7 @@ h3 {
   background-repeat: no-repeat;
 }
 
-@media only screen and (max-width: 800px) {
- 
+@media only screen and (max-width: 1024px) {
   body {
     width: 100vw;
   }
@@ -399,27 +394,23 @@ h3 {
     align-items: center;
     text-align: right;
     background-color: transparent;
-  
-    
   }
   .mtext {
     display: none;
   }
   .second {
     border: none;
-
-    
   }
-  .second i,.first i {
+  .second i,
+  .first i {
     color: white;
-    border: 1px solid ;
+    border: 1px solid;
     height: 6vh;
     width: 2vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 30px ;
-
+    border-radius: 30px;
   }
   .right-side {
     width: 93vw;
@@ -451,7 +442,6 @@ h3 {
     display: none;
   }
   .logo {
-    
     width: 15vw;
     align-items: center;
     justify-content: space-between;
