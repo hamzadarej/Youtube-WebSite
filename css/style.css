@@ -1,13 +1,11 @@
-
- 
-     
-
 body {
   background-color: black;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   font-family: "Times New Roman", Times, serif;
+  align-items: center;
+  width: 100vw;
 }
 /*start nav */
 .topnav {
@@ -16,8 +14,7 @@ body {
   align-items: center;
   border: 1px solid black;
   flex-direction: row;
-
-  flex-wrap: wrap;
+  width: 98vw;
 
   background-color: rgb(39, 35, 35);
 
@@ -63,6 +60,7 @@ nav div i {
 .rightNav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .user-pic {
   width: 35px;
@@ -79,7 +77,7 @@ nav div i {
   display: flex;
   background-color: rgb(39, 35, 35);
   height: 100%;
-  width: 18vw;
+  width: 20vw;
   flex-wrap: wrap;
 }
 .left-side div {
@@ -91,9 +89,9 @@ nav div i {
 .second {
   border-top: gray 1px solid;
 }
-.first,.second:hover {
+.first,
+.second:hover {
   cursor: pointer;
-  
 }
 .left-side div a {
   padding: 25px;
@@ -115,7 +113,7 @@ nav div i {
 .right-side {
   display: flex;
   height: auto;
-  width: 100%;
+  width: 80vw;
 
   flex-direction: column;
 }
@@ -123,9 +121,9 @@ nav div i {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  width: 100%;
-  height: 40vh;
-  border: white 1px solid;
+  width: 80vw;
+  height: 35vh;
+  border: white 1px white;
   background-image: url(../img/TimelineCovers.pro_one_shot_eminem-facebook-cover.jpg);
   background-size: cover;
 
@@ -146,7 +144,7 @@ nav div i {
   text-align: center;
 }
 #facebook {
-  color: #4267B2;
+  color: #4267b2;
 }
 #twitter {
   color: rgb(29, 161, 242);
@@ -182,13 +180,12 @@ nav div i {
 }
 
 .nav-main {
-  width: 100%;
+  width: 80vw;
   height: 16vh;
   background-color: rgb(39, 35, 35);
   display: flex;
   justify-content: center;
   flex-direction: column;
-  flex-wrap: wrap;
   align-items: center;
 }
 .profil {
@@ -220,13 +217,14 @@ nav div i {
   border: 1px solid gray;
 }
 
-
 .navbar {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
   height: 5vh;
+  
+  
 }
 
 .navbar ul {
@@ -259,7 +257,7 @@ nav div i {
   align-items: center;
 }
 .Videos {
-  height: 50vh;
+  
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -279,12 +277,11 @@ nav div i {
 .Videos ul:hover {
   border: 1px solid white;
   width: 30vw;
-  height:40vh ;
+  height: 40vh;
   transition: ease-in-out 2s;
   cursor: zoom-in;
-  border-radius:10px ;
+  border-radius: 10px;
   color: transparent;
-  
 }
 .Videos ul:active {
   width: 6vw;
@@ -294,7 +291,6 @@ nav div i {
 }
 .Videos ul:target {
   color: #bc1888;
-
 }
 
 h3 {
@@ -309,7 +305,6 @@ h3 {
   background-image: url(../img/1.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
-  
 }
 .img2 {
   background-image: url(../img/2.jpg);
@@ -357,5 +352,47 @@ h3 {
   background-repeat: no-repeat;
 }
 #home {
-  cursor:pointer;
+  cursor: pointer;
+}
+@media only screen and (max-width: 800px) {
+  body {
+    width: 100vw;
+    border: 1px white solid;
+  }
+  .left-side {
+    display: none;
+  }
+  .right-side {
+    width: 100vw;
+  }
+  .topnav {
+    display: grid;
+    grid-template-columns: 10% 10%  50%;
+    grid-template-rows:100% ;
+    border: 1px wheat solid;
+    width: 90vw;
+
+  }
+  .background-pic {
+    width: 90vw;
+    height: 15vh;
+    background-size: cover;
+  }
+  
+  #searchbottom {
+    
+   display: none;
+    
+   
+  }
+  #youtube {
+    display: none;
+  }
+  .nav-main {
+    display: none;
+  }
+  .Videos ul {
+    width: 150px;
+  }
+ 
 }
