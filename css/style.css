@@ -1,3 +1,7 @@
+
+ 
+     
+
 body {
   background-color: black;
   display: flex;
@@ -68,6 +72,7 @@ nav div i {
   border-radius: 20px;
   background-image: url(../img/d.jpg);
 }
+
 /*finish nav */
 /*start left-side */
 .left-side {
@@ -85,6 +90,10 @@ nav div i {
 }
 .second {
   border-top: gray 1px solid;
+}
+.first,.second:hover {
+  cursor: pointer;
+  
 }
 .left-side div a {
   padding: 25px;
@@ -208,7 +217,9 @@ nav div i {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 40px;
+  border: 1px solid gray;
 }
+
 
 .navbar {
   display: flex;
@@ -273,6 +284,7 @@ nav div i {
   cursor: zoom-in;
   border-radius:10px ;
   color: transparent;
+  
 }
 .Videos ul:active {
   width: 6vw;
@@ -343,4 +355,7 @@ h3 {
   background-image: url(../img/Eminem_15.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
+}
+#home {
+  cursor:pointer;
 }
