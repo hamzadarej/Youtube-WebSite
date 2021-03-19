@@ -6,7 +6,7 @@ body {
   font-family: "Times New Roman", Times, serif;
   align-items: center;
   justify-content: center;
-  width: 100vw;
+  width: 98vw;
 }
 /*start nav */
 .topnav {
@@ -16,7 +16,7 @@ body {
   text-align: center;
   align-items: center;
 
-  width: 100vw;
+  width: 98vw;
   height: 7vh;
   background-color: rgb(39, 35, 35);
 
@@ -90,8 +90,12 @@ nav div i {
 .rightNav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
+.topnav i {
+  width: 3vw;
+}
+
 .user-pic {
   width: 35px;
   height: 35px;
@@ -137,7 +141,7 @@ nav div i {
 /*finish left-side */
 .main-container {
   display: flex;
-
+  width: 98vw;
   flex-direction: row;
 }
 .right-side {
@@ -383,7 +387,17 @@ h3 {
 
 @media only screen and (max-width: 1024px) {
   body {
-    width: 100vw;
+    width: 90vw;
+  }
+  .rightNav {
+    width: 5vw;
+  }
+  .topnav i {
+    width: 10vw;
+    padding: 0px 8px;
+  }
+  .user-pic {
+    display: none;
   }
   .left-side {
     display: none;
@@ -418,15 +432,16 @@ h3 {
     justify-content: center;
     align-items: center;
   }
+
   .topnav {
     display: grid;
-    grid-template-columns: 10% 10% 50%;
+    grid-template-columns: 10% 10% 30%;
     grid-template-rows: 100%;
 
-    width: 90vw;
+    width: 95vw;
   }
   .background-pic {
-    width: 100vw;
+    width: 85vw;
     height: 15vh;
     background-size: cover;
   }
