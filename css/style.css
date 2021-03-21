@@ -94,7 +94,6 @@ nav div i {
   width: 1.8rem;
   height: 1.5rem;
 
-  background-color: black;
   border-radius: 8px;
 }
 .home .kid {
@@ -113,7 +112,26 @@ nav div i {
 .rightNav {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  flex-direction: inherit;
+  width: 10vw;
+  padding: 0px 8px;
+}
+.apps {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.app {
+  border: 1px solid black;
+
+  width: 5px;
+  height: 5px;
+  background-color: white;
 }
 .topnav i {
   width: 3vw;
@@ -416,7 +434,7 @@ h3 {
     width: 90vw;
   }
   .rightNav {
-    width: 40vw;
+    width: 30vw;
     height: 4vh;
   }
   .topnav i {
