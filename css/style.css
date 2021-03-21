@@ -32,7 +32,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 4vh;
-  
+
   width: 20vw;
 }
 #searchbottom {
@@ -41,7 +41,6 @@ body {
   text-align: right;
   border-radius: 10px;
   color: wheat;
-  
 }
 
 nav div i {
@@ -61,7 +60,6 @@ nav div i {
   background-color: white;
 
   text-decoration: none;
-  
 }
 .youtube-box span {
   font-size: larger;
@@ -95,7 +93,7 @@ nav div i {
   align-items: center;
   width: 1.8rem;
   height: 1.5rem;
-  
+
   background-color: black;
   border-radius: 8px;
 }
@@ -169,7 +167,6 @@ nav div i {
   width: 98vw;
   flex-direction: row;
   justify-content: center;
-  
 }
 .right-side {
   display: flex;
@@ -437,8 +434,11 @@ h3 {
     justify-content: center;
     align-items: center;
     text-align: center;
+    flex-direction: row;
     background-color: transparent;
     width: 10vw;
+
+    left: 0;
   }
   .mtext {
     display: none;
@@ -492,8 +492,6 @@ h3 {
     height: 3vh;
     border-radius: 20px;
     border: white 1px solid;
-    
-
   }
   .logo {
     width: 20vw;
