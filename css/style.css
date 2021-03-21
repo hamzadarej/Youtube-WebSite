@@ -46,10 +46,29 @@ nav div i {
   height: 15px;
   width: 2.5vw;
 }
+.youtube-box {
+  display: flex;
+
+  width: 5vw;
+  justify-content: space-between;
+  align-items: center;
+  height: 2vh;
+}
+
 #youtube {
-  color: white;
+  background-color: white;
   font-size: larger;
   text-decoration: none;
+  border: 1px white solid;
+}
+#youtube i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 0.5vw;
+  height: 1vh;
+  background-color: white;
+  border-radius: 4px;
 }
 .logo {
   display: flex;
@@ -148,7 +167,7 @@ nav div i {
 .right-side {
   display: flex;
   justify-content: center;
-  
+
   height: auto;
   width: 82vw;
 
@@ -393,7 +412,8 @@ h3 {
     width: 90vw;
   }
   .rightNav {
-    width: 5vw;
+    width: 40vw;
+    height: 4vh;
   }
   .topnav i {
     width: 10vw;
@@ -403,14 +423,15 @@ h3 {
     display: none;
   }
   .left-side {
-    display: none;
-    width: 7vw;
+    display: flex;
+
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: right;
     background-color: transparent;
+    width: 3vw;
   }
   .mtext {
     display: none;
@@ -438,7 +459,7 @@ h3 {
 
   .topnav {
     display: grid;
-    grid-template-columns: 10% 10% 30%;
+    grid-template-columns: 20% 30% 40%;
     grid-template-rows: 100%;
 
     width: 95vw;
@@ -451,7 +472,7 @@ h3 {
   .background-box {
     display: grid;
 
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 30% 40% 30%;
     grid-template-rows: 150%;
     width: 20vw;
   }
