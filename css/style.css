@@ -31,15 +31,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 3vh;
-  border: gray 1px solid;
+  height: 4vh;
+  
+  width: 20vw;
 }
 #searchbottom {
   background-color: black;
-  width: 15vw;
+  width: 16vw;
   text-align: right;
   border-radius: 10px;
   color: wheat;
+  
 }
 
 nav div i {
@@ -57,9 +59,12 @@ nav div i {
 
 #youtube {
   background-color: white;
-  font-size: larger;
+
   text-decoration: none;
-  border: 1px white solid;
+  
+}
+.youtube-box span {
+  font-size: larger;
 }
 #youtube i {
   display: flex;
@@ -90,7 +95,7 @@ nav div i {
   align-items: center;
   width: 1.8rem;
   height: 1.5rem;
-  border: 1px solid white;
+  
   background-color: black;
   border-radius: 8px;
 }
@@ -429,9 +434,9 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: right;
+    text-align: center;
     background-color: transparent;
-    width: 3vw;
+    width: 10vw;
   }
   .mtext {
     display: none;
@@ -479,6 +484,14 @@ h3 {
 
   #searchbottom {
     display: none;
+  }
+  .searchNav {
+    width: 8vw;
+    height: 3vh;
+    border-radius: 20px;
+    border: white 1px solid;
+    
+
   }
   .logo {
     width: 20vw;

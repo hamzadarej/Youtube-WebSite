@@ -5,7 +5,8 @@ document.querySelector(".home").addEventListener("click", () => {
   if (clicked) {
     document.querySelector(".left-side").style.cssText = "display:flex;";
   } else {
-    document.querySelector(".left-side").style.cssText = "display:none ;";
-    document.querySelector(".left-side").style.cssText = "display:none ;";
+    document.querySelector(".left-side").style.cssText = "display:none ;"
+    
   }
 });
+
