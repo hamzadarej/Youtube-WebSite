@@ -27,7 +27,7 @@ body {
 .searchNav {
   background-color: black;
   font-size: larger;
-
+  border-radius: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,6 +85,7 @@ nav div i {
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  border-radius: 15px;
 }
 
 .rightNav {
@@ -146,6 +147,8 @@ nav div i {
 }
 .right-side {
   display: flex;
+  justify-content: center;
+  
   height: auto;
   width: 82vw;
 
@@ -303,7 +306,7 @@ nav div i {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: ease-in 3s;
+  transition: ease-in 1s;
 }
 /*
 .Videos ul:hover {
@@ -320,7 +323,7 @@ nav div i {
   height: 70vh;
   color: white;
   cursor: zoom-in;
-  transition: 4s;
+  transition: ease-in-out(1s);
 }
 .Videos ul:target {
   color: #bc1888;
@@ -457,9 +460,9 @@ h3 {
     display: none;
   }
   .logo {
-    width: 15vw;
+    width: 20vw;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
   }
 
@@ -471,5 +474,6 @@ h3 {
   }
   .Videos ul {
     width: 58vw;
+    height: 22vh;
   }
 }
