@@ -9,4 +9,14 @@ document.querySelector(".home").addEventListener("click", () => {
     
   }
 });
+const theme = () => {
+  const white =document.querySelector(".white-theme").checked;
+  body = document.querySelector("body").style;
+  console.log(white);
+  if(white) {
+    body.backgroundColor = "black";
 
+  }else {
+    body.backgroundColor="white";
+  }
+}
