@@ -13,10 +13,10 @@
   
     font-size: large;
   
-    color: white;
+    color: gray;
   }
   .searchNav {
-    background-color: black;
+    background-color: inherit;
     font-size: larger;
     border-radius: 15px;
     display: flex;
@@ -27,7 +27,7 @@
     width: 20vw;
   }
   #searchbottom {
-    background-color: black;
+    background-color: inherit;
     width: 16vw;
     text-align: right;
     border-radius: 10px;
@@ -88,7 +88,7 @@
     border-radius: 8px;
   }
   .home .kid {
-    background-color: white;
+    background-color: gray;
     width: 1.2rem;
     height: 0.1rem;
   }
@@ -129,7 +129,7 @@
   
     width: 5px;
     height: 5px;
-    background-color: white;
+    background-color: gray;
   }
   .topnav i {
     width: 3vw;

@@ -3,6 +3,7 @@
     width: 98vw;
     flex-direction: row;
     justify-content: center;
+    
   }
   .right-side {
     display: flex;
@@ -10,6 +11,7 @@
   
     height: auto;
     width: 82vw;
+    
   
     flex-direction: column;
   }
@@ -32,6 +34,9 @@
     width: 8vw;
     height: 5vh;
     padding: 25px;
+    
+    
+    
   }
   .background-box i {
     background-size: contain;
@@ -83,8 +88,11 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    background-color: red;
+    
+    
   }
-  .profil {
+  .proFil {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -94,6 +102,8 @@
     width: 100%;
     background-color: rgb(39, 35, 35);
     color: aliceblue;
+    background-color: red;
+    
   }
   .profil-left {
     display: flex;
@@ -102,6 +112,7 @@
   
     align-items: center;
     width: 15rem;
+    
   }
   .profil-pic {
     width: 5vw;
