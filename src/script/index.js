@@ -1,12 +1,11 @@
 let clicked = false;
-document.querySelector(".home").addEventListener("click", () => {
+document.querySelector("#home").addEventListener("click", () => {
   clicked = !clicked;
   console.log(clicked);
   if (clicked) {
     document.querySelector(".left-side").style.cssText = "display:flex;";
   } else {
-    document.querySelector(".left-side").style.cssText = "display:none ;"
-    
+    document.querySelector(".left-side").style.cssText = "display:none ;";
   }
 });
 const theme = () => {

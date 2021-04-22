@@ -1,0 +1,249 @@
+.main-container {
+    display: flex;
+    width: 98vw;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .right-side {
+    display: flex;
+    justify-content: center;
+  
+    height: auto;
+    width: 82vw;
+  
+    flex-direction: column;
+  }
+  .background-pic {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 80vw;
+    height: 35vh;
+    border: white 1px white;
+    background-image: url(../img/TimelineCovers.pro_one_shot_eminem-facebook-cover.jpg);
+    background-size: cover;
+  
+    background-repeat: no-repeat;
+  }
+  .background-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 8vw;
+    height: 5vh;
+    padding: 25px;
+  }
+  .background-box i {
+    background-size: contain;
+    height: 3.5vh;
+    width: 1.7vw;
+    text-align: center;
+  }
+  #facebook {
+    color: #4267b2;
+  }
+  #twitter {
+    color: rgb(29, 161, 242);
+  }
+  #instagram {
+    color: white;
+    background: #f09433;
+    background: -moz-linear-gradient(
+      45deg,
+      #f09433 0%,
+      #e6683c 25%,
+      #dc2743 50%,
+      #cc2366 75%,
+      #bc1888 100%
+    );
+    background: -webkit-linear-gradient(
+      45deg,
+      #f09433 0%,
+      #e6683c 25%,
+      #dc2743 50%,
+      #cc2366 75%,
+      #bc1888 100%
+    );
+    background: linear-gradient(
+      45deg,
+      #f09433 0%,
+      #e6683c 25%,
+      #dc2743 50%,
+      #cc2366 75%,
+      #bc1888 100%
+    );
+    border-radius: 5px;
+  }
+  
+  .nav-main {
+    width: 80vw;
+    height: 16vh;
+    background-color: rgb(39, 35, 35);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .profil {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(39, 35, 35);
+    color: aliceblue;
+  }
+  .profil-left {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+    align-items: center;
+    width: 15rem;
+  }
+  .profil-pic {
+    width: 5vw;
+    height: 8vh;
+    background-image: url(../img/Eminem_15.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    border: 1px solid gray;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    height: 5vh;
+  }
+  
+  .navbar ul {
+    color: gray;
+    font-size: medium;
+    color: gray;
+    height: 5vh;
+    padding: 0px 30px;
+  }
+  #subbotton {
+    height: 4vh;
+    background-color: red;
+    color: white;
+    border: red 1px solid;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  #videos {
+    border-bottom: gray 4px solid;
+  }
+  .namefond {
+    font-size: large;
+    font-weight: bold;
+    color: aqua;
+  }
+  .videos-box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Videos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .Videos ul {
+    width: 12vw;
+    height: 16vh;
+    background-color: gray;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease-in 1s;
+  }
+  /*
+  .Videos ul:hover {
+    border: 1px solid white;
+    width: 30vw;
+    height: 40vh;
+    transition: ease-in-out 2s;
+    cursor: zoom-in;
+    border-radius: 10px;
+    color: transparent;
+  }*/
+  .Videos ul:active {
+    width: 80vw;
+    height: 70vh;
+    color: white;
+    cursor: zoom-in;
+    transition: ease-in-out(1s);
+  }
+  .Videos ul:target {
+    color: #bc1888;
+  }
+  
+  h3 {
+    color: gray;
+  
+    width: 71vw;
+    height: 2vh;
+    display: flex;
+    justify-content: left;
+  }
+  .img1 {
+    background-image: url(../img/1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .img2 {
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .img3 {
+    background-image: url(../img/3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .img4 {
+    background-image: url(../img/4.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .img5 {
+    background-image: url(../img/5.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .img6 {
+    background-image: url(../img/4.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .img7 {
+    background-image: url(../img/6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .img8 {
+    background-image: url(../img/7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .img9 {
+    background-image: url(../img/8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .img10 {
+    background-image: url(../img/Eminem_15.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  

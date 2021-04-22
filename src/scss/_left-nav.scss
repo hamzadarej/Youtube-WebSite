@@ -1,0 +1,32 @@
+/*start left-side */
+.left-side {
+    display: flex;
+    background-color: rgb(39, 35, 35);
+    height: 100%;
+    width: 18vw;
+    flex-wrap: wrap;
+  }
+  .left-side div {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    width: 16vw;
+  }
+  .second {
+    border-top: gray 1px solid;
+  }
+  .first,
+  .second:hover {
+    cursor: pointer;
+  }
+  .left-side div a {
+    padding: 25px;
+  
+    color: gray;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .left-side div a i {
+    width: 50px;
+  }
