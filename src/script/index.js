@@ -8,6 +8,16 @@ document.querySelector("#home").addEventListener("click", () => {
     document.querySelector(".left-side").style.cssText = "display:none ;";
   }
 });
+let click = false;
+document.querySelector("#user-pic").addEventListener("click", () => {
+  click = !click;
+  console.log(clicked);
+  if (click) {
+    document.querySelector(".change-color").style.cssText = "display:block;";
+  } else {
+    document.querySelector(".change-color").style.cssText = "display:none ;";
+  }
+});
 const theme = () => {
   const white =document.querySelector(".white-theme").checked;
   body = document.querySelector("body").style;
@@ -27,9 +37,5 @@ const theme = () => {
     nav.backgroundColor="transparent";
     navMain.backgroundColor="transparent";
     proFil.backgroundColor="transparent";
-    container.backgroundColo="transparent";
-
-    
-
-  }
+    container.backgroundColo="transparent";}
 }

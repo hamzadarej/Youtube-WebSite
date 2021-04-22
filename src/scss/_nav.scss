@@ -147,24 +147,19 @@
   }
   .change-color {
     position: absolute;
-    top: 4.5rem;
-    right: 1rem;
-    
-    height: 4rem;
+    top: 76px;
+    right: 12px;
+    height: 3rem;
     width: 8rem;
     display: block;
     background-color: rgb(39, 35, 35);;
     color: inherit;
-    
+    text-align: center;
+    border-radius: 15px;
   } 
   .white-modes {
     margin: 15px;
     
   }
-  .white-modes:hover {
-    color: wheat;
-    
-    
-  
-  }
+
   
