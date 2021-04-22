@@ -25,9 +25,9 @@ const theme = () => {
     body.backgroundColor="white";
     left.backgroundColor="transparent";
     nav.backgroundColor="transparent";
-    navMain.backgroundColor="white";
-    proFil.backgroundColor="white";
-    container.backgroundColo="white";
+    navMain.backgroundColor="transparent";
+    proFil.backgroundColor="transparent";
+    container.backgroundColo="transparent";
 
     
 
