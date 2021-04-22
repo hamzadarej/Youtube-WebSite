@@ -1,0 +1,582 @@
+body {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-family: "Times New Roman", Times, serif;
+  align-items: center;
+  justify-content: center;
+  width: 98vw;
+}
+
+/*start nav */
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  text-align: center;
+  align-items: center;
+  z-index: 10;
+  width: 98vw;
+  height: 7vh;
+  background-color: #272323;
+  font-size: large;
+  color: white;
+}
+
+.searchNav {
+  background-color: black;
+  font-size: larger;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4vh;
+  width: 20vw;
+}
+
+#searchbottom {
+  background-color: black;
+  width: 16vw;
+  text-align: right;
+  border-radius: 10px;
+  color: wheat;
+}
+
+nav div i {
+  height: 15px;
+  width: 2.5vw;
+}
+
+.youtube-box {
+  display: flex;
+  width: 5vw;
+  justify-content: space-between;
+  align-items: center;
+  height: 2vh;
+}
+
+#youtube {
+  background-color: white;
+  text-decoration: none;
+}
+
+.youtube-box span {
+  font-size: larger;
+}
+
+#youtube i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 0.3vw;
+  height: 1vh;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 10vw;
+}
+
+.logo a i {
+  color: red;
+  width: auto;
+}
+
+.home {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  width: 1.8rem;
+  height: 1.5rem;
+  border-radius: 8px;
+}
+
+.home .kid {
+  background-color: white;
+  width: 1.2rem;
+  height: 0.1rem;
+}
+
+.midelNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.rightNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: inherit;
+  width: 10vw;
+  padding: 0px 8px;
+}
+
+.apps {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  transition: 1s ease-in-out;
+}
+
+.apps:hover {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: lightblue;
+  border-radius: 5%;
+}
+
+.app {
+  border: 1px solid black;
+  width: 5px;
+  height: 5px;
+  background-color: white;
+}
+
+.topnav i {
+  width: 3vw;
+}
+
+.user-pic {
+  width: 35px;
+  height: 35px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  background-image: url(../img/d.jpg);
+  z-index: 4;
+  cursor: pointer;
+}
+
+.change-color {
+  position: absolute;
+  top: 4.5rem;
+  right: 1rem;
+  height: 4rem;
+  width: 8rem;
+  display: block;
+  background-color: #272323;
+  color: inherit;
+}
+
+.white-modes {
+  margin: 15px;
+}
+
+.white-modes:hover {
+  color: wheat;
+}
+
+.main-container {
+  display: flex;
+  width: 98vw;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.right-side {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: 82vw;
+  flex-direction: column;
+}
+
+.background-pic {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 80vw;
+  height: 35vh;
+  border: white 1px white;
+  background-image: url(../img/TimelineCovers.pro_one_shot_eminem-facebook-cover.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 8vw;
+  height: 5vh;
+  padding: 25px;
+}
+
+.background-box i {
+  background-size: contain;
+  height: 3.5vh;
+  width: 1.7vw;
+  text-align: center;
+}
+
+#facebook {
+  color: #4267b2;
+}
+
+#twitter {
+  color: #1da1f2;
+}
+
+#instagram {
+  color: white;
+  background: #f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  border-radius: 5px;
+}
+
+.nav-main {
+  width: 80vw;
+  height: 16vh;
+  background-color: #272323;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profil {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 10vh;
+  width: 100%;
+  background-color: #272323;
+  color: aliceblue;
+}
+
+.profil-left {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-items: center;
+  width: 15rem;
+}
+
+.profil-pic {
+  width: 5vw;
+  height: 8vh;
+  background-image: url(../img/Eminem_15.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 40px;
+  border: 1px solid gray;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  height: 5vh;
+}
+
+.navbar ul {
+  color: gray;
+  font-size: medium;
+  color: gray;
+  height: 5vh;
+  padding: 0px 30px;
+}
+
+#subbotton {
+  height: 4vh;
+  background-color: red;
+  color: white;
+  border: red 1px solid;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+#videos {
+  border-bottom: gray 4px solid;
+}
+
+.namefond {
+  font-size: large;
+  font-weight: bold;
+  color: aqua;
+}
+
+.videos-box {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Videos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Videos ul {
+  width: 12vw;
+  height: 16vh;
+  background-color: gray;
+  border: 1px black solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: ease-in 1s;
+}
+
+/*
+.Videos ul:hover {
+  border: 1px solid white;
+  width: 30vw;
+  height: 40vh;
+  transition: ease-in-out 2s;
+  cursor: zoom-in;
+  border-radius: 10px;
+  color: transparent;
+}*/
+.Videos ul:active {
+  width: 80vw;
+  height: 70vh;
+  color: white;
+  cursor: zoom-in;
+  transition: ease-in-out(1s);
+}
+
+.Videos ul:target {
+  color: #bc1888;
+}
+
+h3 {
+  color: gray;
+  width: 71vw;
+  height: 2vh;
+  display: flex;
+  justify-content: left;
+}
+
+.img1 {
+  background-image: url(../img/1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.img2 {
+  background-image: url(../img/2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img3 {
+  background-image: url(../img/3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img4 {
+  background-image: url(../img/4.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.img5 {
+  background-image: url(../img/5.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.img6 {
+  background-image: url(../img/4.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img7 {
+  background-image: url(../img/6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img8 {
+  background-image: url(../img/7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img9 {
+  background-image: url(../img/8.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img10 {
+  background-image: url(../img/Eminem_15.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+/*start left-side */
+.left-side {
+  display: flex;
+  background-color: #272323;
+  height: 100%;
+  width: 18vw;
+  flex-wrap: wrap;
+}
+
+.left-side div {
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  width: 16vw;
+}
+
+.second {
+  border-top: gray 1px solid;
+}
+
+.first,
+.second:hover {
+  cursor: pointer;
+}
+
+.left-side div a {
+  padding: 25px;
+  color: gray;
+  font-size: large;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.left-side div a i {
+  width: 50px;
+}
+
+@media only screen and (max-width: 1024px) {
+  body {
+    width: 90vw;
+  }
+
+  .rightNav {
+    width: 30vw;
+    height: 4vh;
+  }
+
+  .topnav i {
+    width: 10vw;
+    padding: 0px 8px;
+  }
+
+  .user-pic {
+    display: none;
+  }
+
+  .left-side {
+    display: flex;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    background-color: transparent;
+    width: 10vw;
+    left: 0;
+  }
+
+  .mtext {
+    display: none;
+  }
+
+  .second {
+    border: none;
+  }
+
+  .second i,
+.first i {
+    color: white;
+    border: 1px solid;
+    height: 6vh;
+    width: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+  }
+
+  .right-side {
+    width: 93vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .topnav {
+    display: grid;
+    grid-template-columns: 20% 30% 40%;
+    grid-template-rows: 100%;
+    width: 95vw;
+  }
+
+  .background-pic {
+    width: 85vw;
+    height: 15vh;
+    background-size: cover;
+  }
+
+  .background-box {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 150%;
+    width: 20vw;
+  }
+
+  #searchbottom {
+    display: none;
+  }
+
+  .searchNav {
+    width: 8vw;
+    height: 3vh;
+    border-radius: 20px;
+    border: white 1px solid;
+  }
+
+  .logo {
+    width: 20vw;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  .logo span {
+    display: none;
+  }
+
+  .nav-main {
+    display: none;
+  }
+
+  .Videos ul {
+    width: 58vw;
+    height: 22vh;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
