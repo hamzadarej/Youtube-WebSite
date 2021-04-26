@@ -20,12 +20,13 @@ document.querySelector("#user-pic").addEventListener("click", () => {
 });
 const theme = () => {
   const white =document.querySelector(".white-theme").checked;
-  body = document.querySelector("body").style;
+  let body = document.querySelector("body").style;
   let left = document.querySelector(".left-side").style;
   let nav = document.querySelector(".topnav").style;
   let container =document.querySelectorAll(".main-container").style;
   let navMain =document.querySelector(".nav-main").style;
   let proFil =document.querySelector(".proFil").style;
+  let appA = document.querySelector(".app").style;
   
   console.log(white);
   if(white) {
@@ -37,5 +38,6 @@ const theme = () => {
     nav.backgroundColor="transparent";
     navMain.backgroundColor="transparent";
     proFil.backgroundColor="transparent";
-    container.backgroundColo="transparent";}
+    container.backgroundColor="transparent";
+    }
 }

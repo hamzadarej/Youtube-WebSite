@@ -54,6 +54,7 @@ nav div i {
 }
 .youtube-box span {
   font-size: larger;
+  padding: 0px 10px;
 }
 #youtube i {
   display: flex;
@@ -84,7 +85,7 @@ nav div i {
   align-items: center;
   width: 1.8rem;
   height: 1.5rem;
-
+  padding: 0px 32px;
   border-radius: 8px;
 }
 .home .kid {
@@ -109,7 +110,7 @@ nav div i {
   padding: 0px 8px;
 }
 .apps {
-  width: 1.5rem;
+  width: 1.3rem;
   height: 1.5rem;
   display: flex;
   justify-content: center;
@@ -124,7 +125,7 @@ nav div i {
 
   width: 5px;
   height: 5px;
-  background-color: gray;
+ background-color: white;
 }
 .topnav i {
   width: 3vw;
