@@ -1,6 +1,7 @@
 {
   "name": "youtube-website",
   "version": "1.0.0",
+  "homepage": "https://youtube-website.vercel.app/",
   "description": "youtube clone using HTML,CSS. \\ [Visit my page](https://hamzadarej.github.io/Youtube-WebSite/)",
   "main": "index.js",
   "dependencies": {
