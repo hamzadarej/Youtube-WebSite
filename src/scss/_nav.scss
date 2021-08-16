@@ -121,11 +121,10 @@ nav div i {
 }
 
 .app {
-  border: 1px solid black;
+  border: 1px solid gray;
 
   width: 5px;
   height: 5px;
- background-color: white;
 }
 .topnav i {
   width: 3vw;
@@ -143,8 +142,8 @@ nav div i {
 }
 .change-color {
   position: absolute;
-  top: 76px;
-  right: 12px;
+  bottom: 16px;
+  left: 12px;
   height: 3rem;
   width: 8rem;
   display: block;
@@ -156,3 +155,8 @@ nav div i {
 .white-modes {
   margin: 15px;
 }
+
+
+
+
+

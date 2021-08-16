@@ -26,8 +26,8 @@ const theme = () => {
   let proFil = document.querySelector(".proFil").style;
   let modesColor = document.querySelector(".change-color").style;
 
-  console.log(white);
-  if (white) {
+  
+  if (white==false) {
     body.backgroundColor = "black";
   } else {
     modesColor.backgroundColor = "white";
@@ -39,3 +39,4 @@ const theme = () => {
     container.backgroundColor = "transparent";
   }
 };
+theme()
